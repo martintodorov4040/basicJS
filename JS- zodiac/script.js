@@ -1,41 +1,41 @@
 
-let = (2003 -4)%12;
+let year = (2003 -4)%12;
 
-switch ((2003 -4)%12) {
-  case 1:
+switch (year) {
+  case 0:
     console.log("You are a Rat");
     break;
-  case 2:
+  case 1:
     console.log("You are Ox");
     break;
-  case 3:
+  case 2:
     console.log("You are Tiger");
     break;
-  case 4:
+  case 3:
     console.log("You are Rabbit");
     break;
-  case 5:
+  case 4:
     console.log("You are Dragon");
     break;
-    case 6:
+    case 5:
     console.log("You are Snake");
     break;
-    case 7:
+    case 6:
     console.log("You are Horse");
     break;
-    case 8:
+    case 7:
     console.log("You are Goat");
     break;
-    case 9:
+    case 8:
     console.log("You are Monkey");
     break;
-    case 10:
+    case 9:
     console.log("You are Rooster");
     break;
-    case 11:
+    case 10:
     console.log("You are Dog");
     break;
-    case 12:
+    case 11:
     console.log("You are Pig");
      break;
            
